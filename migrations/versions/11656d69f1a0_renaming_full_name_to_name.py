@@ -1,8 +1,8 @@
-"""Empty Init
+"""Renaming full_name to name
 
-Revision ID: 6b9cb35ba46e
+Revision ID: 11656d69f1a0
 Revises: 
-Create Date: 2022-08-04 13:21:26.936909
+Create Date: 2025-03-06 11:16:56.577948
 
 """
 from alembic import op
@@ -10,15 +10,15 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '6b9cb35ba46e'
+revision = '11656d69f1a0'
 down_revision = None
 branch_labels = None
 depends_on = None
 
 
-def upgrade() -> None:
+def upgrade():
     pass
 
 
-def downgrade() -> None:
+def downgrade():
     pass
